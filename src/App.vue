@@ -1,11 +1,14 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <header-bar></header-bar>
+    <div id="stage-box">
+        <side-bar></side-bar>
+        <router-view/>
+    </div>
   </div>
 </template>
 
-<div id="myChart" :style="{width: '300px', height: '300px'}"></div>
+
 
 <script>
 export default {
@@ -15,11 +18,11 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
 }
 </style>
