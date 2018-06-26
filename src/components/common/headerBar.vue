@@ -36,7 +36,7 @@ export default {
         width: 100%;
         height: 60px;
         background-color: #ececec;
-        background: linear-gradient(left, #1178f5, #00b3aa);
+        background: linear-gradient(to right, #1178f5, #00b3aa);
         .logo{
             float: left;
             display: inline;

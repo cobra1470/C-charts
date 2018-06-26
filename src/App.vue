@@ -74,7 +74,8 @@ ul,li{
         margin-left: 51px;
         background-color: #ececec;
         transition: all 0.3s;
-        overflow: auto;
+        overflow: hidden;
+        overflow-y: auto;
     }
 }
 #stage-box.open{
